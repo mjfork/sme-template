@@ -1,3 +1,6 @@
 # Current state
 
-Last updated: never. No sweep yet.
+Last sweep: never
+Last updated: never
+
+No sweep yet.
