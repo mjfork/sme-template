@@ -10,3 +10,8 @@ A long-lived Subject Matter Expert agent for Claude Code, bootstrapped from a si
 Memory lives in this folder: `STATE.md` (loaded every session via `@STATE.md`, so it survives
 compaction), `knowledge/` (one file per topic, with last-verified date and evidence), and
 `journal.md` (append-only log).
+
+## License
+
+Copyright (c) 2026 Think Simple LLC dba Simpler Solutions. All rights reserved.
+See [LICENSE](LICENSE) for details.
