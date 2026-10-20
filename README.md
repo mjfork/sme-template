@@ -13,5 +13,5 @@ compaction), `knowledge/` (one file per topic, with last-verified date and evide
 
 ## License
 
-Copyright (c) 2026 Think Simple LLC dba Simpler Solutions. All rights reserved.
+Released under the MIT License.
 See [LICENSE](LICENSE) for details.
