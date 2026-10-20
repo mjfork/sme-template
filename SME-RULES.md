@@ -68,8 +68,11 @@ ambiguities to that need resolved to get to resolution to me for a decision. Go 
 until you both agree to green light. If, after 5 rounds you still don't have consensus, stop
 and state why."
 
-- Start Codex with the Agent tool, `subagent_type: codex:codex-rescue`, review-only. Give it the
-  diff and the rule above. Send later rounds to the same agent with SendMessage; count rounds.
+- Start the reviewer with the Agent tool, review-only: Codex (`subagent_type: codex:codex-rescue`)
+  if that agent type is available, otherwise a fresh Opus subagent (`subagent_type:
+  general-purpose`, `model: opus`) that hasn't seen the work. Either way, "codex" in the rule
+  above means that reviewer. Give it the diff and the rule. Send later rounds to the same agent
+  with SendMessage; count rounds.
 - A fix made after the last round is unreviewed: don't commit it as reviewed.
 - After 5 rounds without agreement, don't commit. Ask the human, with the open findings as
   numbered options.
